@@ -1,0 +1,7 @@
+- 'detumbling_angular_velocity_history.png' - Angular velocity components history during detumbling phase
+- 'slew_control_parameters_history.png' - LVLH small angles history during slew phase
+- 'pointing_control_parameters_history.png' - LVLH small angles history during pointing phase
+- 'detumbling_control_torque_history.png' - Control torque components history during detumbling phase
+- 'slew_control_torque_history.png' - Control torque components history during slew phase
+- 'pointing_control_torque_history.png' - Control torque components history during pointing phase
+- 'nadir_pointing_performance.png' - Nadir pointing performance during pointing phase, measured as angular displacements with respect to vertical direction

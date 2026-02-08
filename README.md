@@ -1,6 +1,6 @@
 # Satellite ADCS LEOP Simulation
 
-Academic project designing and assessing ADCS architectures for Earth-observations microsatellite LEOP.
+Group project designing and assessing ADCS architectures for Earth-observations microsatellite LEOP applications.
 
 ## Overview
 
@@ -13,12 +13,26 @@ The work is organized in 5 parts:
 4. Satellite ADCS simulation of pointing phase for Earth-observations nadir pointing
 5. Satellite ADCS simulation of pointing phase for Earth-observations nadir pointing, using alternative reaction-wheels control
 
-The full methodology and results (including plots) are available in 'docs/report.pdf'.
+## Results and Validation
+
+Key results:
+- Attitude determination through analytical solution of Wabha's Problem provides sufficiently adequate estimate for detumbling and slew phases. PD closed-loop control successfully reduces angular velocity to ~ 1e-4 rad/s in 2500 seconds.
+- LQR + State Estimator + Thruster Hysteresis logic capable of maintaining nadir pointing precision of ~ 1 deg, effectively counteracting environmental disturbances.
+
+Representative outputs:
+- Control parameters histories across different phases
+- Control torque histories across different phases
+- Nadir pointing performance during pointing phase
+
+Representative figures are available in 'results/' (PNG format).
+See 'results/results.txt' for figure-by-figure explanations.
+The full methodology and results are documented in 'docs/report.pdf'.
 
 ## Repository structure
 
 - 'src/' - MATLAB, Simulink implementations of each study
 - 'docs/' - Project report
+- 'results/' - Key result figures (PNG)
 
 ## Reproducibility and external dependencies
 
