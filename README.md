@@ -16,7 +16,7 @@ The work is organized in 5 parts:
 ## Results and Validation
 
 Key results:
-- Attitude determination through analytical solution of Wabha's Problem provides sufficiently adequate estimate for detumbling and slew phases. PD closed-loop control successfully reduces angular velocity to ~ 1e-4 rad/s in 2500 seconds.
+- Attitude determination through analytical solution of Wahba's Problem provides sufficiently adequate estimate for detumbling and slew phases. PD closed-loop control successfully reduces angular velocity to ~ 1e-4 rad/s in 2500 seconds.
 - LQR + State Estimator + Thruster Hysteresis logic capable of maintaining nadir pointing precision of ~ 1 deg, effectively counteracting environmental disturbances.
 
 Representative outputs:
